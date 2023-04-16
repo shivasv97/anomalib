@@ -192,7 +192,6 @@ Example OpenVINO Inference:
 
 ```bash
 python tools/inference/openvino_inference.py \
-    --config src/anomalib/models/padim/config.yaml \
     --weights results/padim/mvtec/bottle/run/openvino/model.bin \
     --metadata results/padim/mvtec/bottle/run/openvino/metadata.json \
     --input datasets/MVTec/bottle/test/broken_large/000.png \
@@ -207,7 +206,6 @@ A quick example:
 
 ```bash
 python tools/inference/gradio_inference.py \
-        --config src/anomalib/models/padim/config.yaml \
         --weights results/padim/mvtec/bottle/run/weights/model.ckpt
 ```
 
@@ -356,3 +354,13 @@ If you use this library and love it, use this to cite it 🤗
       primaryClass={cs.CV}
 }
 ```
+
+# Contributing
+
+For those who would like to contribute to the library, see [CONTRIBUTING.md](CONTRIBUTING.md) for details.
+
+Thank you to all of the people who have already made a contribution - we appreciate your support!
+
+<a href="https://github.com/openvinotoolkit/anomalib/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=openvinotoolkit/anomalib" />
+</a>
